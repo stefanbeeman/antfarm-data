@@ -1,13 +1,13 @@
 package main
 
 import (
-	"antfarm"
 	"fmt"
+	"github.com/stefanbeeman/antfarm"
 )
 
 func main() {
-	world := antfarm.MakeWorld(100, 100)
-	world.Show()
-	world.Run(1000)
-	fmt.Println("done with simulation")
+	world := antfarm.MakeWorld(".", 10, 10, 1)
+	//world.Show()
+	//world.Run(1000)
+	fmt.Println(world.)
 }
