@@ -5,6 +5,6 @@ import (
 )
 
 func main() {
-	world := antfarm.MakeWorld(".", 10, 10, 1)
-	world.Run(10000)
+	w := antfarm.MakeWorld(".", 20, 20, 1)
+	w.Run(1000)
 }
