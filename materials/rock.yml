@@ -1,0 +1,5 @@
+name: rock
+glyph: "*"
+structure: 8
+hardness: 12
+value: 1

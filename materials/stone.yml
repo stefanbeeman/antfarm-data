@@ -1,0 +1,5 @@
+name: stone
+glyph: "#"
+structure: 8
+hardness: 16
+value: 2

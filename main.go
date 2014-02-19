@@ -4,7 +4,18 @@ import (
 	"github.com/stefanbeeman/antfarm"
 )
 
+type Stack interface {
+	foo()
+}
+
+type Mack interface {
+	Stack
+	goo()
+}
+
+type StackMack struct{}
+
 func main() {
-	w := antfarm.MakeWorld(".", 20, 20, 1)
+	w := af.MakeWorld(".", 20, 20, 1)
 	w.Start()
 }
