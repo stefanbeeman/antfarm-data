@@ -5,6 +5,6 @@ import (
 )
 
 func main() {
-	game := af.MakeGame(".", 20, 20, 1)
+	game := antfarm.MakeGame(".", 20, 20, 1)
 	game.Start()
 }
