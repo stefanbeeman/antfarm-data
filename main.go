@@ -5,6 +5,6 @@ import (
 )
 
 func main() {
-	w := af.MakeWorld(".", 20, 20, 1)
-	w.Start()
+	game := af.MakeGame(".", 20, 20, 1)
+	game.Start()
 }
