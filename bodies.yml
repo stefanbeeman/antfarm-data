@@ -1,0 +1,27 @@
+human:
+    torso:
+        left shoulder:
+            left upper arm:
+                left elbow:
+                    left forearm:
+                        left hand:
+        right shoulder:
+            right upper arm:
+                right elbow:
+                    right forearm:
+                        right hand:
+        chest:
+        belly:
+        left side:
+        right side:
+        left hip:
+            left thigh:
+                left knee:
+                    left shin:
+                        left foot:
+        right hip:
+            right thigh:
+                right knee:
+                    left shin:
+                        left foot:
+        groin:

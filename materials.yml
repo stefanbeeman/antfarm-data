@@ -1,0 +1,12 @@
+rock:
+    hardness: 3
+    fracture: 3
+    melt: 1260
+    flammable: false
+    value: 1
+stone:
+    hardness: 6
+    fracture: 3
+    melt: 1260
+    flammable: false
+    value: 2
